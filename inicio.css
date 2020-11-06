@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+}
+
+:root{
+    --rosadito: #FC887B;
+    --lila: #CCAADA;
+    --celestito: #8DCFC4;
+
+}
+
+/*Estilos a la caja de navegación*/
+
+.encabezado{
+
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 7px 20px white;
+    background-image: url(./imagenes/gatito-encabezado.jpg);
+}
+
+.menu{
+    color:var(--rosadito);
+    margin-left: 40px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 40px;
+    
+
+}
+
+.box-navegation{
+   
+    background-position: 300px 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 35px;
+    
+}
+
+/*Estilos a el texto*/
+.conocimientos, .proyectos, .contacto
+{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    padding: 12px 0px 0px 0px;
+    font-family: 'Grandstander', cursive;
+    color:var(--rosadito);
+    text-shadow: 1px 1px 0px var(--lila);
+}
+
+.hola{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    padding: 12px 0px 0px 0px;
+    font-family: 'Grandstander', cursive;
+    color: var(--rosadito);
+    font-size: 16px;
+    text-shadow: 1px 1px 0px var(--lila);
+    
+}
+
+.hello{
+    font-size: 25px;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    
+}
+
+/*Estilos a la caja de los textos*/
+.box-hello, .box-conocimientos, .box-proyectos, .box-contacto{
+    
+    border: 3px solid  var(--celestito) ;
+    border-radius: 25px;
+    list-style: none;
+    width: 150px;
+    height: 45px;
+    font-family: 'Grandstander', cursiva;
+    margin: 10px;
+    background-color: whitesmoke; 
+}
+
+.box-hello:hover, .box-conocimientos:hover, .box-contacto:hover, .box-proyectos:hover{
+    border: 3px solid var(--lila);
+    background-color: var(--rosadito);
+}
+
+.conocimientos:hover, .proyectos:hover, .contacto:hover, .hola:hover{
+    color: beige;
+    
+}
+
+/*mi nombre y presentación*/
+.box-main-presentation{
+    background-color: #dce6eb;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.box-presentation{
+        display: flex;
+        margin: 60px 0px 40px 40px;
+        box-sizing: border-box;
+        height: 100vh;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+}
+
+.presentation{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    padding: 20px 10px;
+    justify-content: space-between;
+    align-items: center;       
+}
+
+
+
+.img{
+    display: flex;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px; 
+}
+
+.title-1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+}
+
+.title-2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    background-color: beige;
+    border-radius: 20%;
+    padding: 10px;  
+}
+
+.title-2:hover{
+    background-color: var(--rosadito);
+    color: beige;
+}
+
+.parrafo-presentation{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+.box-button{
+   
+    width: 150px;
+    height: 55px;
+    border-radius: 20px;
+    background-image: url(./imagenes/gatito-encabezado.jpg);
+    border: 2px solid var(--celestito);
+    
+}
+
+.box-button:hover{
+    width: 160px;
+    height: 60px;
+    border: 2px solid var(--lila);
+}
+
+.button{
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+    color: var(--lila);   
+}
+
+.button:hover{
+    color: var(--celestito);
+}

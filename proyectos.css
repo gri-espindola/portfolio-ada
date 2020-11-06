@@ -1,0 +1,37 @@
+.section-proyectos{
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    height: 500vh;
+    box-sizing: border-box;
+    background-color:#D0E6A5;
+}
+
+.box-div-proyectos{
+    background-color: brown;
+    margin: 0px;
+    padding: 0px;
+    width: 70vw;
+    height: 40vh;
+    box-sizing: border-box;
+}
+
+.box-div2-proyectos{
+    background-color: fuchsia;
+    width: 70vw;
+    height: 150vh;
+    box-sizing: border-box;
+}
+
+.box-proyect{
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img-portfolio, .img-memes, .img-match, .img-gastos, .img-adm, .img-peliculas, .img-app{
+    width: 339px;
+    height: 271px;
+}
+
