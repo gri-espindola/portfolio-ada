@@ -9,12 +9,11 @@
     --lila: #CCAADA;
     --celestito: #8DCFC4;
 
-}
+} 
 
 /*Estilos a la caja de navegación*/
 
 .encabezado{
-
     position: fixed;
     display: flex;
     width: 100%;

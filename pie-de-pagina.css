@@ -1,0 +1,35 @@
+
+.box-the-end{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: lightcoral;
+    align-items: center;
+    color: #ffffff;
+    padding: 100px 30px 80px;
+    width: 100vw;
+}
+
+.ul-the-end{
+   display: flex;
+    padding: 30px;
+}
+
+.li-the-end{
+    color: #ffffff;
+    list-style: none;
+    margin: 0px 15px;
+}
+
+.a-the-end{
+    text-decoration: none;
+}
+
+/*Icono*/
+.i-the-end{
+    font-size: 2.5rem;
+    background-color: black;
+    border-radius: 50%;
+    padding: 6px;
+}
+
