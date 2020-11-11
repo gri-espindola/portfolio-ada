@@ -15,7 +15,7 @@
 ### si quieres tener el código en tu computadora, deberás de seguir estos pases en tu terminal.
 
 
-- Ir al [repositorio](https://github.com/gri-espindola/proyecto-ada) - darle click al botón de folkear
+- Ir al [repositorio](https://tender-panini-774525.netlify.app/) - darle click al botón de folkear
 - Darle click al botón de code
 - Copiar la url
 - Abrir tu terminal y poner el comando de **git clone <url>**
