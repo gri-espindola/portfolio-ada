@@ -1,9 +1,9 @@
-# Portfolio de Ada
+# Mi primer portfolio en Ada
 
-### Este es un proyecto destinado a generar un agradable impacto visual. Con armonia en la combinación de los colores y la agradable sensación de volver a ser un niño con imagenes animé
+### No es un simple proyecto, es el comienzo de un gran conocimiento que voy a ir adquiriendo. Puse en él toda mi esencia, espero lo disfruten 🤗
 <br>
 
-### Si quieres ver como quedó puedes darle amor con tu click con este [enlace](https://tender-panini-774525.netlify.app/) o puedes hacerlo desde [acá]()
+### Si quieres ver como quedó puedes darle amor con tu click en este 👉🏻[enlace](https://tender-panini-774525.netlify.app/) o puedes hacerlo desde [acá]()
 
 
 
@@ -12,14 +12,14 @@
 
 ***
 
-### si quieres tener el código en tu computadora, deberás de seguir estos pases en tu terminal.
+### si quieres tener el código en tu computadora "Siganme los buenos". Mira estos sencillos pasos.
 
 
-- Ir al [repositorio](https://github.com/gri-espindola/proyecto-ada) - darle click al botón de folkear
+- Ir al [repositorio](https://github.com/gri-espindola/proyecto-ada) - darle click al botón de **folkear*
 - Darle click al botón de code
-- Copiar la url
+- Copiar la **url**.
 - Abrir tu terminal y poner el comando de **git clone <url>**
-- Entrar a la carpeta del proyecto y abrirlo en tu IDE 
+- Entrar a la carpeta del proyecto y abrirlo en tu **IDE* 
 
 ### Este proyecto no necesita la instalación de ninguna dependencia, por ahora!
 
@@ -27,7 +27,8 @@
 
 ***
 
-### Este debería ser el resultado final de tu instalación 
+### Y... ¡Ualá chapulín! 😄
+Este debería ser el resultado final de tu instalación. 
 
 
 ![imagen](./imagenes/scream-de-portfolio.png)
@@ -36,6 +37,7 @@
 
 ***
 
-### Este portfolio fue desarrollado en mi cursada de Ada. Agradezco a [Jonh]() y a [Leydi]() por su ayuda proporcionada 
+### Este portfolio fue desarrollado en mi cursada de Ada. Agradezco a [Jonh](), [Leydi]() y mis compañeras de cursada por su acompañamiento en este camino y su ayuda codeadora 
 
-#### De Gri con ❤ para ustedes!
+
+#### De **Gri* con ❤ Para todo el 🌍 
