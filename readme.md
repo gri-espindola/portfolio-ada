@@ -3,7 +3,7 @@
 ### Este es un proyecto destinado a generar un agradable impacto visual. Con armonia en la combinación de los colores y la agradable sensación de volver a ser un niño con imagenes animé
 <br>
 
-### Si quieres ver como quedó puedes darle amor con tu click con este [enlace] (https://github.com/gri-espindola/proyecto-ada) o puedes hacerlo desde [acá] ()
+### Si quieres ver como quedó puedes darle amor con tu click con este [enlace](https://github.com/gri-espindola/proyecto-ada) o puedes hacerlo desde [acá]()
 
 
 
