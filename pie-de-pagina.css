@@ -10,9 +10,10 @@
     width: 100vw;
 }
 
+/*CLASES GENERALES*/
 .ul-the-end{
    display: flex;
-    padding: 30px;
+    padding: 40px;
 }
 
 .li-the-end{
@@ -21,15 +22,34 @@
     margin: 0px 15px;
 }
 
+
+/*ESTILOS A LOS TEXTOS*/
+
 .a-the-end{
     text-decoration: none;
+    font-family: 'Grandstander', cursive;
+    color: plum;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 30%;
+    border: 3px solid var(--celestito);
+    font-size: 20px;
+}
+
+.p-footer-gri{
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    background-color: var(--celestito);
+    padding: 10px;
+    border-radius: 40%;
 }
 
 /*Icono*/
 .i-the-end{
     font-size: 2.5rem;
-    background-color: black;
-    border-radius: 50%;
-    padding: 6px;
+    background-color:#ffffff;
+    border-radius: 30%;
+    padding: 10px;
+    color: plum;
 }
 
