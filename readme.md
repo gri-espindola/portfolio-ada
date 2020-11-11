@@ -36,6 +36,6 @@
 
 ***
 
-### Este portfolio fue desarrollado en mi cursada de Ada. Agradezco a [Jonh] () por su ayuda proporcionada 
+### Este portfolio fue desarrollado en mi cursada de Ada. Agradezco a [Jonh]() y a [Leydi]() por su ayuda proporcionada 
 
 #### De Gri con ❤ para ustedes!
