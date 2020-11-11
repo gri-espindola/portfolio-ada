@@ -15,11 +15,11 @@
 ### si quieres tener el código en tu computadora "Siganme los buenos". Mira estos sencillos pasos.
 
 
-- Ir al [repositorio](https://github.com/gri-espindola/proyecto-ada) - darle click al botón de **folkear*
-- Darle click al botón de code
+- Ir al [repositorio](https://github.com/gri-espindola/proyecto-ada) - Darle click al botón de *folkear*
+- Darle click al botón de <-code->
 - Copiar la **url**.
 - Abrir tu terminal y poner el comando de **git clone <url>**
-- Entrar a la carpeta del proyecto y abrirlo en tu **IDE* 
+- Entrar a la carpeta del proyecto y abrirlo en tu *IDE* 
 
 ### Este proyecto no necesita la instalación de ninguna dependencia, por ahora!
 
@@ -40,4 +40,4 @@ Este debería ser el resultado final de tu instalación.
 ### Este portfolio fue desarrollado en mi cursada de Ada. Agradezco a [Jonh](), [Leydi]() y mis compañeras de cursada por su acompañamiento en este camino y su ayuda codeadora 
 
 
-#### De **Gri* con ❤ Para todo el 🌍 
+#### De *Gri* con ❤ Para todo el 🌍 
