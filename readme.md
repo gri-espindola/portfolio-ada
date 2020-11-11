@@ -3,7 +3,7 @@
 ### Este es un proyecto destinado a generar un agradable impacto visual. Con armonia en la combinación de los colores y la agradable sensación de volver a ser un niño con imagenes animé
 <br>
 
-### Si quieres ver como quedó puedes darle amor con tu click con este [enlace](https://github.com/gri-espindola/proyecto-ada) o puedes hacerlo desde [acá]()
+### Si quieres ver como quedó puedes darle amor con tu click con este [enlace](https://tender-panini-774525.netlify.app/) o puedes hacerlo desde [acá]()
 
 
 
@@ -15,7 +15,7 @@
 ### si quieres tener el código en tu computadora, deberás de seguir estos pases en tu terminal.
 
 
-- Ir al [repositorio](https://tender-panini-774525.netlify.app/) - darle click al botón de folkear
+- Ir al [repositorio](https://github.com/gri-espindola/proyecto-ada) - darle click al botón de folkear
 - Darle click al botón de code
 - Copiar la url
 - Abrir tu terminal y poner el comando de **git clone <url>**
