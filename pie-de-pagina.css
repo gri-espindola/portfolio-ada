@@ -1,13 +1,24 @@
+:root{
+    --rosadito: #FC887B;
+    --lila: #CCAADA;
+    --celestito: #8DCFC4;
+    --amarillito: #FFDD95;
+    --turquesa: #86E3CE; 
+    --rosita: #F6C9B2;
+
+}
+
 
 .box-the-end{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: lightcoral;
+    background-color: var(--rosadito);
     align-items: center;
     color: #ffffff;
-    padding: 100px 30px 80px;
-    width: 100vw;
+    height: 60%;
+    
+    
 }
 
 /*CLASES GENERALES*/
@@ -28,20 +39,17 @@
 .a-the-end{
     text-decoration: none;
     font-family: 'Grandstander', cursive;
-    color: plum;
-    background-color: #ffffff;
     padding: 15px;
-    border-radius: 30%;
-    border: 3px solid var(--celestito);
     font-size: 20px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
 }
 
 .p-footer-gri{
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Dancing Script', cursive;
-    background-color: var(--celestito);
     padding: 10px;
-    border-radius: 40%;
 }
 
 /*Icono*/
@@ -50,6 +58,9 @@
     background-color:#ffffff;
     border-radius: 30%;
     padding: 10px;
-    color: plum;
+    color: var(--rosadito);
 }
 
+.emoji-end{
+    color: red;
+}

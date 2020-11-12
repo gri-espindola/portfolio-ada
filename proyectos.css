@@ -2,6 +2,10 @@
     --rosadito: #FC887B;
     --lila: #CCAADA;
     --celestito: #8DCFC4;
+    --amarillito: #FFDD95;
+    --turquesa: #86E3CE; 
+    --rosita: #F6C9B2;
+    --verdecito:#D0E6A5;
 
 }
 
@@ -48,7 +52,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 120px;
+    padding: 100px;
     padding-bottom: 10px;
 }
 
@@ -56,13 +60,14 @@
     display: flex;
     box-sizing: border-box;
     justify-content: space-around;
-    width: 350px;
-    height: 357px;
-    border: 4px solid lightslategray;
+    width: 340px;
+    height: 347px;
+    border: 4px solid var(--rosadito);
     border-radius: 30px;
     text-decoration: none;
-    background-color: var(--lila);
-    
+    background-color: beige;
+    padding-top: 20px;
+
 }
 
 .fig-proyect{
@@ -71,6 +76,7 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 40px;
+    padding-top: 20px;
 }
 
 .img-memes, .img-match, .img-gastos, .img-adm, .img-peliculas, .img-app{
@@ -90,9 +96,10 @@
 }
 
 .text-grilla{
-    font-size: 20px;
-    font-family: 'Itim', cursive;
-    color: beige;
+    font-size: 22px;
+    font-family: 'Lora', serif;
+    color: var(--verdecito);
+
 }
 
 /*REDES SOCIALES*/

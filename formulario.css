@@ -1,0 +1,168 @@
+/*FORMULARIO*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;    
+}
+
+:root{
+    --rosadito: #FC887B;
+    --lila: #CCAADA;
+    --celestito: #8DCFC4;
+    --grisecito: #F6F7FB;
+    --turquesa: #86E3CE; 
+    --rosita: #F6C9B2;
+    --gris: #DDD6F8;
+    --violet: #424975;
+    }
+
+/*CONTACTAME*/
+
+.container-formulario{
+    background-color: var(--rosita);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    width: 100vw;
+    height: 140vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.box-column-contactame{
+    background-color: var(--gris);
+    display: flex;
+    margin-right: 90px;
+    margin-left: 100px;
+    border: 1px solid var(--violet);
+    border-radius: 20px;
+    
+
+    
+}
+
+.box-contact{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title-contact{
+    display:flex;
+    justify-content: flex-start;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    font-family: 'Xanh Mono', monospace;
+    font-size: 40px;
+}
+
+.parrafo-contact{
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 70px;
+    font-family: 'Mukta', sans-serif;
+}
+
+/*REDES SOCIALES-ICONOS*/
+
+.box-li-redes{
+    list-style: none;
+}
+
+.text-redes{
+    text-decoration: none;
+    padding-left: 40px;
+    font-family: 'Mukta', sans-serif;
+    color: var(--violet);
+}
+
+.icon-redes{
+    padding: 10px;
+    font-size: 20px;
+    color: var(--violet);
+
+
+}
+
+/*ESCRIBIME*/
+.container-escribime{
+    background-color: var(--celestito);
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-escribime{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90vh;
+}
+
+/*SECCIÓN ESCRIBEME*/
+
+/*NOMBRE Y APELLIDO*/
+
+.container-escribime{
+    background-color: var(--gris);
+    display: flex;
+    margin-right: 90px;
+    margin-left: 100px;
+}
+
+.title-escribime{
+    display:flex;
+    justify-content: flex-start;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 130%;
+    font-family: 'Xanh Mono', monospace;
+    font-size: 40px;
+}
+
+.form-escribime{
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Mukta', sans-serif;
+    width: 130%;
+    padding-left: 20px;
+}
+
+.box-formulario{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.button-end{
+    border: 3px solid  var(--violet) ;
+    border-radius: 25px;
+    list-style: none;
+    width: 150px;
+    height: 65px;
+    font-family: 'Grandstander', cursive;
+    font-size: 20px;
+    margin: 10px;
+    background-color: var(--lila); 
+    
+}
+
+.text-button-end{
+    text-decoration: none;
+    color: var(--violet);
+}

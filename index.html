@@ -11,6 +11,14 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!--FUENTE DE FORMULARIO-->
+    <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap" rel="stylesheet">
+    <!--FUENTE DE GRILLA-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+
     <!--fuente de titulo "mis conocimientos"-->
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     <!--fuente de párrafo de conocimientos (no es italic)-->
@@ -25,11 +33,11 @@
     <!--2da fuente para cita-->
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./pie-de-pagina.css">
+    <link rel="stylesheet" href="./formulario.css">
     <link rel="stylesheet" href="./proyectos.css">
     <link rel="stylesheet" href="./cita.css">
     <link rel="stylesheet" href="./inicio.css">
     <link rel="stylesheet" href="./concimientos.css">
-    <link rel="stylesheet" href="./contactame.css">
     <link rel="icon"
         href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>😺</text></svg>" />
 
@@ -310,23 +318,27 @@
                     <section class="box-redes-sociales">
                         <ul class="box-items-redes">
                             <li class="box-li-redes">
-                                <a href="" class="twiter">
-                                    <i class="fab fa-twitter"></i>
+                                <a href="" class="text-redes">
+                                    <i class="fab fa-twitter icon-redes"></i>
+                                    @Espindolagri
                                 </a>
                             </li>
                             <li class="box-li-redes">
-                                <a href="" class="git-hub">
-                                    <i class="fab fa-github-alt"></i>
+                                <a href="" class="text-redes">
+                                    <i class="fab fa-github-alt icon-redes"></i> 
+                                    gri-espindola
                                 </a>
                             </li>
                             <li class="box-li-redes">
-                                <a href="" class="linkedin">
-                                    <i class="fab fa-linkedin-in"></i>
+                                <a href="" class="text-redes">
+                                    <i class="fab fa-linkedin-in icon-redes"></i>
+                                    griespindola
                                 </a>
                             </li>
                             <li class="box-li-redes">
-                                <a href="" class="email">
-                                    <i class="far fa-envelope"></i>
+                                <a href="" class="text-redes">
+                                    <i class="far fa-envelope icon-redes"></i>
+                                    griespindola27@gmail.com
                                 </a>
                             </li>
                         </ul>
@@ -340,21 +352,21 @@
                     <h2 class="title-escribime">Escribime</h2>
                     <form class="form-escribime">
                         <div class="box-escribime">
-                            <div class="box-name">
+                            <div class="box-formulario">
                                 <label for="firstname">Nombre *</label>
-                                <input type="text" name="nombre" id="firtsname" class="input-firtsname">
+                                <input type="text" name="nombre" id="firtsname" class="input-firtsname" placeholder="Por ej. Griselda">
 
                             </div>
-                            <div>
+                            <div class="box-formulario">
                                 <label for="lastname"> Apellido *</label>
-                                <input type="text" name="apellido" id="lastname" class="input-lastname">
+                                <input type="text" name="apellido" id="lastname" class="input-lastname" placeholder="Por ej. Espíndola">
                             </div>
                         </div>
 
                         <!--MAIL-->
                         <div class="box-formulario">
                             <label for="email">Mail *</label>
-                            <input type="text" name="email" id="email" class="input-email">
+                            <input type="text" name="email" id="email" class="input-email" placeholder="Por ej. griespindola27@gmail.com">
                         </div>
 
                         <!--MENSAJE-->
@@ -364,11 +376,15 @@
                                 placeholder="Escriba aquí su mensaje">
                             </textarea>
                         </div>
-
-                        <button class="button-end">
-                            Enviar
-                        </button>
+                       
                     </form>
+                         
+                             <button class="button-end">
+                                <a href="" class="text-button-end">
+                            Enviar
+                                </a>
+                            </button>
+                       
                 </section>
             </div>
         </div>
@@ -427,7 +443,7 @@
             </li>
         </ul>
 
-        <p class="p-footer-gri">Hecho con ❤ por Gri</p>
+        <p class="p-footer-gri">Hecho con <span class="emoji-end">❤</span> Por Gri</p>
     </footer>
 </body>
 
