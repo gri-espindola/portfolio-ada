@@ -213,31 +213,41 @@
     }
 
     .box-main-presentation{
-        background-color: blueviolet;
         width: 270vw;
         height: 200vh;
     }
 
     .title-1{
-        margin-top: 30%;
+        margin-top: 10%;
         font-size: 30px;
     }
 
     .title-2{
-        margin-top: 20%;
+        margin-top: 10%;
         margin-bottom: 10%;
-        font-size: 40px;
+        font-size: 60px;
     }
 
     .box-button{
         margin-top: 10%;
+        width: 170px;
+        height: 75px;
     }
 
-    .box-image{
+    .button{
+        padding: 10px;
+        
+    }
+
+    /* .box-image{
         margin-top: 30%;
         margin-right: 5%;
     }
+ */
 
+    .box-image{
+        display: none;
+    }
 
     /*ACA NO SE COMO MIERDA HACER APARECER EL MENU DEL ORTO*/
     .menu-hamburguesa{
