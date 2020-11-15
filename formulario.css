@@ -43,6 +43,7 @@
     border-radius: 20px;
     justify-content: space-between;
     overflow: hidden;
+    margin-bottom: 8%;
     
 }
 
@@ -59,9 +60,10 @@
     display:flex;
     justify-content: flex-start;
     width: 40vw;
-    font-family: 'Xanh Mono', monospace;
     font-size: 50px;
     padding-top: 50px;
+    font-family: 'Indie Flower', cursive;
+    color: var(--violet);
 }
 
 .parrafo-contact{
@@ -88,7 +90,7 @@
 .icon-redes{
     font-size: 20px;
     color: var(--violet);
-    padding-right: 20px;
+    padding-right: 23px;
 }
 
 /*ESCRIBIME*/
@@ -106,9 +108,10 @@
     display:flex;
     justify-content: flex-start;
     width: 40vw;
-    font-family: 'Xanh Mono', monospace;
     font-size: 50px;
     padding-top: 50px;
+    font-family: 'Indie Flower', cursive;
+    color: var(--violet) ; 
 }
 
 .form-escribime{
@@ -117,7 +120,8 @@
     justify-content: space-around;
     height: 90vh;
     width: 40vw;
-    font-family: 'Mukta', sans-serif;
+   /* font-family: 'Mukta', sans-serif;*/
+
     padding-top: 20px;
 
 }
@@ -140,6 +144,7 @@
     background-color: transparent;
     padding-left: 10px;
     color: var(--violet);
+    border-radius: 20px;
 }
 
 .box-mail, .box-message{
@@ -151,6 +156,7 @@
     height: 5vh;
     background-color: transparent;
     padding-left: 10px;
+    border-radius: 20px;
 }
 
 .text-message{
@@ -168,6 +174,7 @@
     padding-left: 10px;
     color: var(--violet);
     font-size: 15px;
+    border-radius: 20px;
 }
 
 
@@ -189,4 +196,28 @@
 .text-button-end{
     text-decoration: none;
     color: var(--violet);
+}
+
+/*HOVER*/
+
+.icon-redes:hover{
+    font-size: 23px;
+    background-color: var(--violet);
+    color: wheat;
+    border-radius: 50px;
+    padding: 9px;
+}
+
+.text-redes:hover{
+    padding-left: 10px;
+}
+
+.text-button-end:hover{
+    color: whitesmoke;
+}
+
+.button-end:hover{
+    background-color: var(--rosadito);
+    width: 154px;
+    height: 69px;
 }

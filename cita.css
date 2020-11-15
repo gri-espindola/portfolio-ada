@@ -24,20 +24,16 @@
     color: var(--rosadito);
     font-size: 10em;
     display: flex;
-    margin-bottom: 10%;
-    margin-top: 20%;  
-}
-
-.icon:hover{
-    font-size: 12em;
-
+    margin-bottom: 6%;
+    margin-top: 10%;
+    justify-content: space-around;
 }
 
 .box-cita-parrafo {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
+    margin-bottom: 40px;
     width: 85vw;
     height: 65vh;
     
@@ -45,29 +41,35 @@
 }
 
 .parrafo-class{
-    padding: 10px 180px;
-    /*font-family: 'Itim', cursive;*/
+    margin-top: 50px;
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
-}
-
-.title{
-    margin-top: 10%;
+    width: 40vw;
 }
 
 
-.class-title{
+
+.title-autor{
+    margin-top: 50px; ;
     font-size: 40px;
     font-family: 'Itim', cursive;
     color: bisque;
     background-color: var(--rosadito);
     padding: 10px; 
     border: 4px solid var(--lila);
-    border-radius: 15%;
+    border-radius: 15px;
 }
 
-.class-title:hover{
+/*HOVER*/
+
+.title-autor:hover{
     color: var(--rosadito);
     background-color: bisque;
-    border: 4px solid var(--rosadito) ;
+    border: 4px solid var(--rosadito);
+}
+
+.icon:hover{
+    font-size: 12em;
+    margin-bottom: 3%;
+
 }

@@ -21,10 +21,11 @@
 /*TEXTO DE PROYECTOS*/
 .box-div-proyectos{
     margin: 0px;
-    padding: 0px;
+    padding: 0px; 
     width: 100%;
     height: 45vh;
     box-sizing: border-box;
+    padding-top: 6%;
 }
 
 .title-section-proyect{
@@ -40,14 +41,14 @@
 .parrafo-text-proyect{
     padding: 40px 400px;
     font-family: 'Mukta', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /*CAJAS DE GRILLA*/
 
 .box-div2-proyectos{
-    width: 100vw;
-    height: 200vh;
+    width: 98vw;
+    height: 198vh;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;

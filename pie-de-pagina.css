@@ -63,8 +63,29 @@
 }
 
 .emoji-end{
+    color: var(--verdecito);
+}
+
+/*HOVER*/
+
+.a-the-end:hover{
+    background-color: wheat;
+    color: var(--rosadito);
+    border-radius: 15%;
+}
+
+.i-the-end:hover{
+    font-size: 3.5rem;
+    background-color: var(--violet);
+    color: #ffffff;
+}
+
+.emoji-end:hover{
     color: red;
 }
 
+.p-footer-gri:hover{
+    color: grey;
+    font-size: 40px;
 
-
+}
