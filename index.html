@@ -50,15 +50,15 @@
         <i class="fas fa-bars menu"></i>
         <ul class="box-navegation">
             <li class="box-hello">
-                <a class="hello" href=""> 👋🏻
+                <a class="hello" href="#section-hello"> 👋🏻
                     <span class="hola">¡Hola!</span>
                 </a>
             </li>
             <li class="box-conocimientos">
-                <a class="conocimientos" href="">Conocimientos</a>
+                <a class="conocimientos" href="#section-conocimientos">Conocimientos</a>
             </li>
             <li class="box-proyectos">
-                <a class="proyectos" href="">Proyectos</a>
+                <a class="proyectos" href="#section-proyectos">Proyectos</a>
             </li>
 
             <li class="box-contacto">
@@ -70,7 +70,8 @@
     <!--PRESENTACIÓN-->
 
     <main class="box-main-presentation">
-        <section class="box-presentation">
+        <a href="#section-hi"></a>
+        <section class="box-presentation" id="section-hello">
             <article class="presentation">
                 <h3 class="title-1">
                     ¡Hola! Soy
@@ -106,8 +107,8 @@
     <!--MIS CONOCIMIENTOS-->
 
 
-    <section class="box-section-conocimientos">
-
+    <section class="box-section-conocimientos" id="section-conocimientos">
+        <a href="#section-conocim"></a>
         <div class="box-div-conocimientos">
             <article class="box-article">
                 <h2 class="title-conocimientos">
@@ -203,7 +204,8 @@
     </section>
 
     <!--Seccion de proyectos-->
-    <section class="section-proyectos">
+    <section class="section-proyectos" id="section-proyectos">
+        <a href="section-proyect"></a>
         <div class="box-div-proyectos">
             <h2 class="title-section-proyect"> <strong>Mis proyectos</strong>
             </h2>
@@ -303,77 +305,74 @@
 
             <!--CONTACTAME-->
     <section class="container-formulario" id="section-contactame">
+            <a href="#section-contact"></a>
         <div class="box-formulario">
-            <div class="box-column-contactame">
-                <section class="box-contact">
+            <section class="box-contact">
                     <h2 class="title-contact">
                         Contactame
                     </h2>
                     <p class="parrafo-contact">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus eveniet, nulla, labore eaque
-                        facilis iusto veniam quas neque earum omnis harum repellendus vitae vero odit temporibus
-                        mollitia eligendi ullam. Odit?
+                       Si tenés un desafio en mente, ¡Comentame!
+                       Justos podemos hacer un gran equipo. La instancia de creación tiene dos principios "Pienso luego existo"
                     </p>
                     <!--REDES SOCIALES-->
-                    <section class="box-redes-sociales">
-                        <ul class="box-items-redes">
-                            <li class="box-li-redes">
-                                <a href="" class="text-redes">
-                                    <i class="fab fa-twitter icon-redes"></i>
-                                    @Espindolagri
-                                </a>
-                            </li>
-                            <li class="box-li-redes">
-                                <a href="" class="text-redes">
-                                    <i class="fab fa-github-alt icon-redes"></i> 
+                <section class="box-redes-sociales">
+                    <ul class="box-items-redes">
+                        <li class="box-li-redes">
+                            <a href="" class="text-redes">
+                                <i class="fab fa-twitter icon-redes"></i>
+                                @Espindolagri
+                            </a>
+                        </li>
+                        <li class="box-li-redes">
+                            <a href="" class="text-redes">
+                                <i class="fab fa-github-alt icon-redes"></i> 
                                     gri-espindola
-                                </a>
-                            </li>
-                            <li class="box-li-redes">
-                                <a href="" class="text-redes">
-                                    <i class="fab fa-linkedin-in icon-redes"></i>
+                            </a>
+                        </li>
+                        <li class="box-li-redes">
+                            <a href="" class="text-redes">
+                               <i class="fab fa-linkedin-in icon-redes"></i>
                                     griespindola
-                                </a>
-                            </li>
-                            <li class="box-li-redes">
-                                <a href="" class="text-redes">
-                                    <i class="far fa-envelope icon-redes"></i>
-                                    griespindola27@gmail.com
-                                </a>
-                            </li>
-                        </ul>
-                    </section>
+                            </a>
+                        </li>
+                        <li class="box-li-redes">
+                            <a href="" class="text-redes">
+                                <i class="far fa-envelope icon-redes"></i>griespindola27@gmail.com
+                            </a>
+                        </li>
+                    </ul>
                 </section>
+            </section>
 
-                <!--SECCIÓN ESCRIBIME-->
 
                 <!--NOMBRE Y APELLIDO-->
-                <section class="container-escribime">
+                <section class="box-form">
                     <h2 class="title-escribime">Escribime</h2>
                     <form class="form-escribime">
-                        <div class="box-escribime">
-                            <div class="box-formulario">
-                                <label for="firstname">Nombre *</label>
+                        <div class="box-name-lastname">
+                            <div class="box-name">          
+                                <label for="firstname" class="text-name-lastname">Nombre *</label>
                                 <input type="text" name="nombre" id="firtsname" class="input-firtsname" placeholder="Por ej. Griselda">
-
                             </div>
-                            <div class="box-formulario">
-                                <label for="lastname"> Apellido *</label>
+
+                            <div class="box-lastname">
+                                <label for="lastname" class="text-name-lastname"> Apellido *</label>
                                 <input type="text" name="apellido" id="lastname" class="input-lastname" placeholder="Por ej. Espíndola">
                             </div>
                         </div>
 
                         <!--MAIL-->
-                        <div class="box-formulario">
-                            <label for="email">Mail *</label>
+                        <div class="box-mail">
+                            <label for="email" class="text-mail">Mail *</label>
                             <input type="text" name="email" id="email" class="input-email" placeholder="Por ej. griespindola27@gmail.com">
                         </div>
 
                         <!--MENSAJE-->
-                        <div class="box-formulario">
-                            <label for="message">Mensaje *</label>
+                        <div class="box-message">
+                            <label for="message" class="text-message">Mensaje *</label>
                             <textarea name="mensaje" id="message" cols="30" rows="10"
-                                placeholder="Escriba aquí su mensaje">
+                                placeholder="Escriba aquí su mensaje"class="textarea-message">Escriba su mensaje aquí
                             </textarea>
                         </div>
                        
@@ -385,8 +384,7 @@
                                 </a>
                             </button>
                        
-                </section>
-            </div>
+            </section>
         </div>
     </section>
 
@@ -395,23 +393,23 @@
     <footer class="box-the-end">
         <nav class="nav-the-end">
             <ul class="ul-the-end">
-                <li class="li-the-end">
+                <li class="li-the-end" id="section-hi">
                     <a href="" class="a-the-end">
                         HOLA
                     </a>
                 </li>
-                <li class="li-the-end">
-                    <a href="" class="a-the-end">
+                <li class="li-the-end" id="section-conocim">
+                    <a href="" class="a-the-end" >
                         CONOCIMIENTOS
                     </a>
                 </li>
                 <li class="li-the-end">
-                    <a href="" class="a-the-end">
+                    <a href="" class="a-the-end id" id="section-proyect">
                         PROYECTOS
                     </a>
                 </li>
                 <li class="li-the-end">
-                    <a href="" class="a-the-end">
+                    <a href="" class="a-the-end" id="section-contact">
                         CONTACTO
                     </a>
                 </li>

@@ -1,4 +1,4 @@
-/*FORMULARIO*/
+/*SECCION-FORMULARIO*/
 *{
     margin: 0px;
     padding: 0px;
@@ -29,48 +29,47 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    
 }
 
-
-
-.box-column-contactame{
+.box-formulario{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: 100vh;
     background-color: var(--gris);
     display: flex;
-    margin-right: 90px;
-    margin-left: 100px;
     border: 1px solid var(--violet);
     border-radius: 20px;
-    
-
+    justify-content: space-between;
+    overflow: hidden;
     
 }
 
 .box-contact{
-    width: 50%;
+    width: 40vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-left: 30px;
 }
 
 .title-contact{
     display:flex;
     justify-content: flex-start;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    padding-left: 50px;
+    width: 40vw;
     font-family: 'Xanh Mono', monospace;
-    font-size: 40px;
+    font-size: 50px;
+    padding-top: 50px;
 }
 
 .parrafo-contact{
     display: flex;
     justify-content: center;
-    padding-left: 50px;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    padding-right: 70px;
+    width: 25vw;
     font-family: 'Mukta', sans-serif;
+    font-size: 20px;
 }
 
 /*REDES SOCIALES-ICONOS*/
@@ -81,28 +80,35 @@
 
 .text-redes{
     text-decoration: none;
-    padding-left: 40px;
     font-family: 'Mukta', sans-serif;
     color: var(--violet);
+    font-size: 18px;
 }
 
 .icon-redes{
-    padding: 10px;
     font-size: 20px;
     color: var(--violet);
-
-
+    padding-right: 20px;
 }
 
 /*ESCRIBIME*/
-.container-escribime{
-    background-color: var(--celestito);
+.box-form{
     display: flex;
-    width: 50%;
+    width: 40vw;
     height: 100vh;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+
+.title-escribime{
+    display:flex;
+    justify-content: flex-start;
+    width: 40vw;
+    font-family: 'Xanh Mono', monospace;
+    font-size: 50px;
+    padding-top: 50px;
 }
 
 .form-escribime{
@@ -110,44 +116,62 @@
     flex-direction: column;
     justify-content: space-around;
     height: 90vh;
-}
-
-/*SECCIÓN ESCRIBEME*/
-
-/*NOMBRE Y APELLIDO*/
-
-.container-escribime{
-    background-color: var(--gris);
-    display: flex;
-    margin-right: 90px;
-    margin-left: 100px;
-}
-
-.title-escribime{
-    display:flex;
-    justify-content: flex-start;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    width: 130%;
-    font-family: 'Xanh Mono', monospace;
-    font-size: 40px;
-}
-
-.form-escribime{
-    display: flex;
-    align-items: flex-start;
+    width: 40vw;
     font-family: 'Mukta', sans-serif;
-    width: 130%;
+    padding-top: 20px;
+
+}
+
+.box-name-lastname{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.text-name-lastname, .text-mail{
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+}
+
+
+.input-lastname, .input-firtsname{
+    width: 12vw;
+    height: 5vh;
+    background-color: transparent;
+    padding-left: 10px;
+    color: var(--violet);
+}
+
+.box-mail, .box-message{
     padding-left: 20px;
 }
 
-.box-formulario{
-    display: flex;
-    flex-direction: column;
-   
-    
+.input-email{
+    width: 30vw;
+    height: 5vh;
+    background-color: transparent;
+    padding-left: 10px;
 }
+
+.text-message{
+    display: flex;
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    align-items: flex-start;
+}
+
+.textarea-message{
+    background-color: transparent;
+    width: 36vw;
+    height: 30vh;
+    font-family: 'Mukta', sans-serif;
+    padding-left: 10px;
+    color: var(--violet);
+    font-size: 15px;
+}
+
+
+/*BUTTON*/
 
 .button-end{
     border: 3px solid  var(--violet) ;
@@ -158,7 +182,7 @@
     font-family: 'Grandstander', cursive;
     font-size: 20px;
     margin: 10px;
-    background-color: var(--lila); 
+    background-color: var(--rosita); 
     
 }
 

@@ -16,7 +16,8 @@
     background-color: var(--rosadito);
     align-items: center;
     color: #ffffff;
-    height: 60%;
+    height: 55vh;
+    width: 100vw;
     
     
 }
@@ -64,3 +65,6 @@
 .emoji-end{
     color: red;
 }
+
+
+
