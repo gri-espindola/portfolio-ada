@@ -16,7 +16,7 @@
 .encabezado{
     position: fixed;
     display: flex;
-    width: 100%;
+    width: 100vw;
     height: 100px;
     box-shadow: 0px 7px 20px white;
     background-image: url(./imagenes/gatito-encabezado.jpg);
@@ -89,16 +89,6 @@
     background-color: whitesmoke; 
 }
 
-.box-hello:hover, .box-conocimientos:hover, .box-contacto:hover, .box-proyectos:hover{
-    border: 3px solid var(--lila);
-    background-color: var(--rosadito);
-}
-
-.conocimientos:hover, .proyectos:hover, .contacto:hover, .hola:hover{
-    color: beige;
-    
-}
-
 /*mi nombre y presentación*/
 .box-main-presentation{
     background-color: #dce6eb;
@@ -152,10 +142,7 @@
     padding: 10px;  
 }
 
-.title-2:hover{
-    background-color: var(--rosadito);
-    color: beige;
-}
+
 
 .parrafo-presentation{
     font-family: 'Raleway', sans-serif;
@@ -171,12 +158,6 @@
     
 }
 
-.box-button:hover{
-    width: 160px;
-    height: 60px;
-    border: 2px solid var(--lila);
-}
-
 .button{
     font-size: 20px;
     font-family: 'Dosis', sans-serif;
@@ -184,6 +165,83 @@
     color: var(--lila);   
 }
 
+.menu-hamburguesa{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*HOVER*/
+
+.box-hello:hover, .box-conocimientos:hover, .box-contacto:hover, .box-proyectos:hover{
+    border: 3px solid var(--lila);
+    background-color: var(--rosadito);
+}
+
+.conocimientos:hover, .proyectos:hover, .contacto:hover, .hola:hover{
+    color: beige;    
+}
+
+.title-2:hover{
+    background-color: var(--rosadito);
+    color: beige;
+}
+
+.box-button:hover{
+    width: 160px;
+    height: 60px;
+    border: 2px solid var(--lila);
+}
+
 .button:hover{
     color: var(--celestito);
+}
+
+/*RESPONSIVE*/
+ /* TE VA A SALIR GRISELDA LA RE CAJETA DE LA LORA */
+
+@media (max-width:320px){
+    .encabezado{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    .box-hello, .box-conocimientos, .box-proyectos, .box-contacto{
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    .box-main-presentation{
+        background-color: blueviolet;
+        width: 270vw;
+        height: 200vh;
+    }
+
+    .title-1{
+        margin-top: 30%;
+        font-size: 30px;
+    }
+
+    .title-2{
+        margin-top: 20%;
+        margin-bottom: 10%;
+        font-size: 40px;
+    }
+
+    .box-button{
+        margin-top: 10%;
+    }
+
+    .box-image{
+        margin-top: 30%;
+        margin-right: 5%;
+    }
+
+
+    /*ACA NO SE COMO MIERDA HACER APARECER EL MENU DEL ORTO*/
+    .menu-hamburguesa{
+        display: flex;
+        justify-content: flex-start;
+    }
 }
