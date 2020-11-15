@@ -71,7 +71,7 @@
 .a-the-end:hover{
     background-color: wheat;
     color: var(--rosadito);
-    border-radius: 15%;
+    border-radius: 15px;
 }
 
 .i-the-end:hover{

@@ -107,11 +107,20 @@
 
 .box-items-redes{
     height:50vh;
-    padding: 40px;
-    
+    padding: 40px;    
 }
 
 .box-li-redes{
     height: 50px;
+}
 
+/*HOVER*/
+
+.box-proyect:hover{
+    background-color: var(--rosadito);
+    border: 4px solid beige;
+}
+
+.text-grilla:hover{
+    color: #ffffff;
 }
