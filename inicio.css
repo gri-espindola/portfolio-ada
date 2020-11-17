@@ -199,59 +199,30 @@
 /*RESPONSIVE*/
  /* TE VA A SALIR GRISELDA LA RE CAJETA DE LA LORA */
 
-@media (max-width:320px){
-    .encabezado{
-        display: flex;
-        justify-content: flex-end;
-        width: 100%;
+@media (max-width:900px){
+    .box-section-conocimientos{
+        display: none !important;
     }
 
-    .box-hello, .box-conocimientos, .box-proyectos, .box-contacto{
-        padding-left: 10px;
-        padding-right: 10px;
-
+    .box-container-conocimientos{
+        display: none
     }
 
-    .box-main-presentation{
-        width: 270vw;
-        height: 200vh;
-    }
-
-    .title-1{
-        margin-top: 10%;
-        font-size: 30px;
-    }
-
-    .title-2{
-        margin-top: 10%;
-        margin-bottom: 10%;
-        font-size: 60px;
-    }
-
-    .box-button{
-        margin-top: 10%;
-        width: 170px;
-        height: 75px;
-    }
-
-    .button{
-        padding: 10px;
-        
-    }
-
-    /* .box-image{
-        margin-top: 30%;
-        margin-right: 5%;
-    }
- */
-
-    .box-image{
+    .box-cita{
         display: none;
     }
 
-    /*ACA NO SE COMO MIERDA HACER APARECER EL MENU DEL ORTO*/
-    .menu-hamburguesa{
-        display: flex;
-        justify-content: flex-start;
+    .section-proyectos{
+        display:none
     }
+
+    .container-formulario{
+        display: none;
+    }
+
+    .box-form{
+        display: none;
+    }
+
+    .box
 }
