@@ -199,7 +199,7 @@
 /*RESPONSIVE*/
  /* TE VA A SALIR GRISELDA LA RE CAJETA DE LA LORA */
 
-@media (max-width:320px){
+/* @media (max-width:900px){
     .encabezado{
         display: flex;
         justify-content: flex-end;
@@ -245,13 +245,89 @@
     }
  */
 
-    .box-image{
+    /* .box-image{
         display: none;
-    }
+    } */
 
     /*ACA NO SE COMO MIERDA HACER APARECER EL MENU DEL ORTO*/
-    .menu-hamburguesa{
+    /* .menu-hamburguesa{
         display: flex;
         justify-content: flex-start;
+    } */
+
+/* } */
+
+
+@media(max-width: 900px){
+    .encabezado{
+        display: none !important;
     }
+
+    .section-proyectos{
+        display: none !important;
+    }
+    .box-div2-proyectos{
+        display: none !important;
+    }
+    .box-cita{
+        display: none !important;
+    }
+    .container-formulario{
+        display: none !important;
+    }
+    .box-the-end{
+        display: none !important;
+    }
+
+
+    .box-main-presentation{
+        height: auto;
+    }
+
+    .box-presentation{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .presentation{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .title-1{
+        font-size: 35px;
+        margin: 6% 0 5% 0;
+
+    }
+    .title-2{
+        font-size: 37px;
+        margin: 5% 0;
+
+    }
+
+    .image-women{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img{
+        width: 70%;
+        height: auto;
+        margin-bottom: 10%;
+
+    }
+
+    .box-button{
+        margin:  3% 0;
+        width: 120px;
+    }
+
+
+
+    
+
 }
