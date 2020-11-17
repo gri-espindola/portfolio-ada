@@ -129,3 +129,30 @@
     font-size: 20px;
 }
 
+
+@media(max-width: 900px){
+    .box-div-conocimientos{
+        height: auto;
+    }
+
+    .title-conocimientos{
+        text-align: center;
+    }
+
+    .parrafo-conocimientos{
+        width: 100%;
+        text-align: center;
+        height: auto;
+        margin-top: 25px;
+    }
+
+    .box-container-conocimientos{
+        width: 100%;
+        margin: 0;
+    }
+
+    .cajita{
+        height: auto;
+        width: 45%;
+    }
+}
