@@ -197,67 +197,14 @@
 }
 
 /*RESPONSIVE*/
- /* TE VA A SALIR GRISELDA LA RE CAJETA DE LA LORA */
-
-/* @media (max-width:900px){
-    .encabezado{
-        display: flex;
-        justify-content: flex-end;
-        width: 100%;
-    }
-
-    .box-hello, .box-conocimientos, .box-proyectos, .box-contacto{
-        padding-left: 10px;
-        padding-right: 10px;
-
-    }
-
-    .box-main-presentation{
-        width: 270vw;
-        height: 200vh;
-    }
-
-    .box-container-conocimientos{
-        display: none
-    }
-
-    .box-cita{
-        display: none;
-    }
-
-    .section-proyectos{
-        display:none
-    }
-
-    .container-formulario{
-        display: none;
-    }
-
-    /* .box-image{
-        display: none;
-    } */
-
-    /*ACA NO SE COMO MIERDA HACER APARECER EL MENU DEL ORTO*/
-    /* .menu-hamburguesa{
-        display: flex;
-        justify-content: flex-start;
-    } */
-
-/* } */
-
 
 @media(max-width: 900px){
     .encabezado{
         display: none !important;
     }
 
-    .section-proyectos{
-        display: none !important;
-    }
+
     .box-div2-proyectos{
-        display: none !important;
-    }
-    .box-cita{
         display: none !important;
     }
     .container-formulario{
@@ -314,6 +261,9 @@
         width: 120px;
     }
 
+    .parrafo-presentation {
+        width: 70vw;
+    }
 
 
     

@@ -11,15 +11,13 @@
     box-sizing: border-box;
     display: flex;
     width: 100vw;
-    height: 140vh;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    padding-bottom: 30px;
 }
 
 .box-div-conocimientos{
     width: 70%;
-    height: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,19 +50,18 @@
     display: flex;
     font-family: 'Raleway', sans-serif;
     justify-content: center;
-    width: 30vw;
-    height: 50vh;
-    margin-top: 45px;
+    margin-bottom: 6%;
+    margin-top: 10%;
 }
 
 .box-container-conocimientos{
     width: 70%;
-    height: 100vh;
     display: flex;
     box-sizing: border-box;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 60px;
+
 
 }
 
@@ -129,30 +126,46 @@
     font-size: 20px;
 }
 
+/*RESPONSIVO*/
 
 @media(max-width: 900px){
+
+    .box-section-conocimientos{
+        flex-direction: column;
+        justify-content: flex-start;
+        min-height: 170vh;
+    }
+    
     .box-div-conocimientos{
-        height: auto;
+        height: 100vh;
     }
 
     .title-conocimientos{
         text-align: center;
+        margin-top: 20%;
     }
 
     .parrafo-conocimientos{
         width: 100%;
         text-align: center;
         height: auto;
-        margin-top: 25px;
+        margin-top: 22%;
     }
 
     .box-container-conocimientos{
         width: 100%;
-        margin: 0;
+        margin-bottom: 30px;
     }
 
     .cajita{
-        height: auto;
         width: 45%;
+    }
+
+    .box-article{
+        margin: 0;
+    }
+
+    .box-div-conocimientos{
+        height: auto;
     }
 }

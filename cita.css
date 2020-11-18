@@ -3,9 +3,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    display: flex;
     width: 100vw;
-    height: 140vh;
+    min-height: 130vh;
     
 }
 
@@ -33,7 +32,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 40px;
+    justify-content: end;
     width: 85vw;
     height: 65vh;
     
@@ -41,10 +40,12 @@
 }
 
 .parrafo-class{
+
     margin-top: 50px;
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
     width: 40vw;
+    margin-bottom: 20%;
 }
 
 
@@ -72,4 +73,24 @@
     font-size: 12em;
     margin-bottom: 3%;
 
+}
+
+/*RESPONSIVO*/
+
+@media(max-width: 900px){
+    .title-autor{
+        width: 66%;
+    }
+
+    .parrafo-class{
+        width: 70vw;
+        margin-right: 10%;
+    
+    }
+
+    .box-cita-parrafo{
+        
+        margin-bottom: 0;
+
+    }
 }
