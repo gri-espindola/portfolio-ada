@@ -203,12 +203,6 @@
         display: none !important;
     }
 
-
-    .box-div2-proyectos{
-        display: none !important;
-    }
-    .container-formulario{
-        display: none !important;
     }
     .box-the-end{
         display: none !important;
@@ -222,6 +216,7 @@
     .box-presentation{
         flex-direction: column;
         margin: 0;
+        height: 115vh;
     }
 
     .presentation{
@@ -250,7 +245,7 @@
     }
 
     .img{
-        width: 70%;
+        width: 40%
         height: auto;
         margin-bottom: 10%;
 

@@ -11,7 +11,7 @@
 
 .section-proyectos{
     width: 100vw;
-    height: 250vh;
+    min-height: 150vh;
     background-color:#D0E6A5;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .parrafo-text-proyect{
-    padding: 10px 40px;
+    width: 80%;
     font-family: 'Mukta', sans-serif;
     font-size: 16px;
 }
@@ -124,7 +124,9 @@
 @media(max-width: 900px){
 .box-div2-proyectos{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
 }
+
+
 }

@@ -45,13 +45,12 @@
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
     width: 40vw;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
 
 
 
 .title-autor{
-    margin-top: 50px; ;
     font-size: 40px;
     font-family: 'Itim', cursive;
     color: bisque;
@@ -78,6 +77,10 @@
 /*RESPONSIVO*/
 
 @media(max-width: 900px){
+    .box-cita{
+        min-height: 125vh
+    }
+    
     .title-autor{
         width: 66%;
     }
@@ -85,6 +88,7 @@
     .parrafo-class{
         width: 70vw;
         margin-right: 10%;
+        margin-bottom: 25%;
     
     }
 
@@ -93,4 +97,8 @@
         margin-bottom: 0;
 
     }
+}
+
+@media(max-width: 907px){
+    .box.2div.proyectos
 }
