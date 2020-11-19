@@ -34,7 +34,7 @@
 }
 
 .title-conocimientos{
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Itim', cursive;
     color:#DC8176;
     background-color: bisque;
@@ -52,7 +52,7 @@
     justify-content: center;
     margin-bottom: 6%;
     margin-top: 10%;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .box-container-conocimientos{

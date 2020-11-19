@@ -35,9 +35,10 @@
 }
 
 .parrafo-text-proyect{
-    width: 80%;
+    width: 70%;
     font-family: 'Mukta', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
+    padding-top: 10px;
 }
 
 /*CAJAS DE GRILLA*/
