@@ -30,7 +30,8 @@
     font-size: 60px;
     font-family: 'Josefin Sans', sans-serif;
     color: var(--celestito);
-    padding-top: 40px;
+   /*  padding-top: 40px; */
+    margin-top: 10%;
     text-shadow: 2px 1px 0px var(--lila);
 }
 

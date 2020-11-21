@@ -25,7 +25,7 @@
     box-sizing: border-box;
     display: flex;
     width: 100vw;
-    min-height: 140vh;
+    min-height: 120vh;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -43,26 +43,21 @@
     border-radius: 20px;
     justify-content: space-between;
     overflow: hidden;
-  /*   margin-bottom: 8%; */
-  padding-left: 10px;
+    padding-left: 10px;
     padding-right: 10px;
     
 }
 
 .box-contact{
-    /* width: 40vw; */
     height: 100vh;
     display: flex;
     flex-direction: column;
-    /* padding-left: 30px; */
     align-items: center;
     justify-content: space-between;
 }
 
 .title-contact{
     display:flex;
-    /* justify-content: flex-start;
-    width: 40vw; */
     font-size: 50px;
     padding-top: 50px;
     font-family: 'Indie Flower', cursive;
@@ -71,11 +66,9 @@
 
 .parrafo-contact{
     display: flex;
-    /* justify-content: center; */
     width: 20vw;
     font-family: 'Mukta', sans-serif;
     font-size: 20px;
-    /* padding-left: 35px; */
     
 }
 
@@ -110,7 +103,6 @@
 /*ESCRIBIME*/
 .box-form{
     display: flex;
-   /*  width: 40vw; */
     height: 100vh;
     flex-direction: column;
     justify-content: space-between;
@@ -121,7 +113,6 @@
 .title-escribime{
     display:flex;
     justify-content: flex-start;
-   /*  width: 40vw; */
     font-size: 50px;
     padding-top: 50px;
     font-family: 'Indie Flower', cursive;
@@ -136,10 +127,13 @@
     width: 40vw;
 }
 
+.box-lastname{
+    padding-left: 10px;
+}
+
 .box-name-lastname{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
 }
 
 .text-name-lastname, .text-mail{
@@ -154,6 +148,7 @@
     background-color: transparent;
     color: var(--violet);
     border-radius: 20px;
+    padding-left: 10px;
 }
 
 
@@ -224,6 +219,10 @@
     height: 69px;
 }
 
+input:valid, textarea:valid {
+    border: 1px solid #424975;
+}
+
 @media(max-width:900px){
     .box-formulario{
     display: flex;
@@ -231,6 +230,7 @@
     height: auto;
     margin-top: 10%;
     width: 50%;
+    margin-bottom: 10%;
     }
 
     .parrafo-contact{
@@ -243,24 +243,29 @@
 
     .box-name-lastname{
         display: flex;
-        flex-wrap: wrap;
-        justify-content: end;
-        width: 55vw;
+        flex-direction: column;
+       
+    }
+
+    .box-lastname{
+        margin-top: 15px;
     }
 
     .input-firtsname, .input-lastname{
-        width: 25vw;
-        margin: 10px;
+        margin: 0;
+        padding: 6px;
+        width: 85%;
     }
 
     .input-email{
-        width: 40vw;
-        margin-left: 5px;
+        margin: 0;
+        padding: 6px;
+        width: 85%;
     }
 
     .box-mail{
         display: flex;
-        justify-content: end;
+        flex-direction: column;
     }
 
     .box-message{
@@ -269,7 +274,7 @@
     }
 
     .textarea-message{
-        width: 60%;
+        width: 85%;
     }
 
     .button-end{
@@ -277,5 +282,10 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 25px;
+    }
+
+    .form-escribime{
+        width: auto;
+        margin-left: 40px;
     }
 }

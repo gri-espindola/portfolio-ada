@@ -89,3 +89,36 @@
     font-size: 40px;
 
 }
+
+@media (max-width: 900px){
+    .li-the-end i{
+        padding: 5px;
+    }
+
+    .ul-the-end{
+        display: flex;
+        align-items: center;
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+
+    .ul-nav-end{
+        display:none;
+    }
+
+    .box-the-end{
+        height: auto;
+    }
+
+    .p-footer-gri{
+        padding-bottom: 25px;
+    }
+
+    .icon-redes{
+        display: flex;
+    }
+
+    .box-items-redes{
+        padding-left: 0px;
+    }
+}
