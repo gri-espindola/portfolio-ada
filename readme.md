@@ -3,7 +3,7 @@
 ### No es un simple proyecto, es el comienzo de un gran conocimiento que voy a ir adquiriendo. Puse en él toda mi esencia, espero lo disfruten 🤗
 <br>
 
-### Si quieres ver como quedó puedes darle amor con tu click en este 👉🏻[enlace](https://tender-panini-774525.netlify.app/) o puedes hacerlo desde [acá](file:///C:/Users/gries/Desktop/ADA/proyecto-ada/presentacion/portfolio/index.html)
+### Si quieres ver como quedó puedes darle amor con tu click en este 👉🏻[enlace](https://tender-panini-774525.netlify.app/) o puedes hacerlo desde [acá](https://gri-espindola.github.io/proyecto-ada/)
 
 
 
