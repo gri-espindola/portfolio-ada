@@ -37,7 +37,7 @@ Este debería ser el resultado final de tu instalación.
 
 ***
 
-### Este portfolio fue desarrollado en mi cursada de Ada. Agradezco a [Jonh](), [Leydi]() y mis compañeras de cursada por su acompañamiento en este camino y su ayuda codeadora 
+### Este portfolio fue desarrollado en mi cursada de Ada. Agradezco a [Jonh](https://github.com/Jonhks), [Leydi](https://github.com/leydyk93/) y mis compañeras de cursada por su acompañamiento en este camino y su ayuda codeadora 
 
 
 #### De *Gri* con ❤ Para todo el 🌍 
