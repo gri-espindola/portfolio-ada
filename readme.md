@@ -31,7 +31,7 @@
 Este debería ser el resultado final de tu instalación. 
 
 
-![imagen](./imagenes/scream-de-portfolio.png)
+![imagen](./imagenes/captura-de-portfolio.png)
 
 <br>
 

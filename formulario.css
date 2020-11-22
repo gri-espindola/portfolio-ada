@@ -223,6 +223,8 @@ input:valid, textarea:valid {
     border: 1px solid #424975;
 }
 
+/*RESPONSIVO*/
+
 @media(max-width:900px){
     .box-formulario{
     display: flex;
