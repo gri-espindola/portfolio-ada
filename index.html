@@ -65,23 +65,23 @@
 <body>
     <!--ENCABEZADO-->
     <header class="encabezado">
-        <nav class="menu-hamburguesa">
+        <nav class="menu-hamburguesa" aria-hidden="true">
             <i class="fas fa-bars menu"></i>
         </nav>
-            <ul class="box-navegation">
+            <ul class="box-navegation" aria-label="Usted podrá acceder a todos los enlaces. Bienvenido. conocimientos. Proyectos. Contacto">
                 <li class="box-hello">
-                <a class="hello" href="#section-hello" aria-label="Inicio de página"> 👋🏻
+                <a class="hello" href="#section-hello"> 👋🏻
                     <span class="hola">¡Hola!</span>
                 </a>
                 </li>
                 <li class="box-conocimientos">
-                <a class="conocimientos" href="#section-conocimientos" aria-label="Conocimientos">Conocimientos</a>
+                <a class="conocimientos" href="#section-conocimientos">Conocimientos</a>
                 </li>
                 <li class="box-proyectos">
-                <a class="proyectos" href="#section-proyectos" aria-label="Proyectos">Proyectos</a>
+                <a class="proyectos" href="#section-proyectos">Proyectos</a>
                 </li>
                 <li class="box-contacto">
-                <a class="contacto" href="#section-contactame" aria-label="Contacto">Contacto</a>
+                <a class="contacto" href="#section-contactame">Contacto</a>
                 </li>
             </ul>
     </header>
@@ -89,21 +89,21 @@
     <!--PRESENTACIÓN-->
 
     <main class="box-main-presentation">
-        <section class="box-presentation" id="section-hello">
+        <section class="box-presentation" id="section-hello" aria-label="Esta es la presentación de este proyecto.">
             <article class="presentation">
-                <h3 class="title-1">
+                <h3 class="title-1" aria-label="¡Hola soy Griselda Espíndola!,">
                     ¡Hola! Soy
                 </h3>
-                <h1 class="title-2">
+                <h1 class="title-2" aria-hidden="true">
                     Griselda Espindola
                 </h1>
-                <p class="parrafo-presentation">
+                <p class="parrafo-presentation" aria-label="soy estudiante Froonteend de Ada, amante de los animé y fan de la música celta.">
                     Estudiante Frontend de Ada, amante de los animé y fan de la música celta.
                 </p>
 
                 <!--BOTON-->
-                    <button class="box-button">
-                        <a href="#section-proyectos" class="button" aria-label="Inicio a lo que hago">
+                    <button class="box-button" aria-label="Este es un botón para acceder a los proyectos">
+                        <a href="#section-proyectos" class="button">
                             <strong>
                             LO QUE HAGO
                             </strong>
@@ -113,8 +113,8 @@
 
             <!--imagen-->
             <article class="box-image">
-                <figure class="image-women">
-                    <img class="img" src="./imagenes/gatito y yo.jpg" alt="Gatito y Grissss">
+                <figure class="image-women" aria-label="Es una imagen estilo animé, con un gato que representa a Oliver y una niña que representa a la creadora de este proyecto, Grissssssss.">
+                    <img class="img" src="./imagenes/gatito y yo.jpg" alt="Es una imagen estilo animé, con un gato que representa a Oliver y una niña que representa a la creadora de este proyecto, Grissssssss.">
                 </figure>
             </article>
         </section>
@@ -123,13 +123,14 @@
     <!--MIS CONOCIMIENTOS-->
 
 
-    <section class="box-section-conocimientos" id="section-conocimientos">
+    <section class="box-section-conocimientos" id="section-conocimientos" aria-label="Usted se encuentra en la sección de conocimientos, dando un breve recorrido de lo aprendido en esta cursada.">
         <div class="box-div-conocimientos">
             <article class="box-article">
-                <h2 class="title-conocimientos">
+                <h2 class="title-conocimientos" aria-label="Soy Griselda y en mi cursada por Ada, hay varios de estos conocimientos que fui adquiriendo, y otros que estan en instancias de ser vistos y comprendidos. He aquí el maravilloso mundo de Frooontend.">
                     Mis Conocimientos
                 </h2>
-                <p class="parrafo-conocimientos">
+                <p class="parrafo-conocimientos" 
+               aria-hidden="true">
                    En mi cursada por Ada hay varios de estos conocimientos que fui adquiriendo y otros que estan en instancias de ser vistos y comprendidos.
                    He aquí el maravilloso mundo de Frontend.
                 </p>
@@ -149,16 +150,17 @@
                     </article>
                 </div>            
                 <div class="box-div-css3 cajita"><!--BOX CSS3-->
-                    <article class="box-article-icon">
-                        <i class="fab fa-css3-alt clase-icono css3"></i>
+                    <article class="box-article-icon"
+                    aria-label="Conocimientos de CSS 3">
+                        <i class="fab fa-css3-alt clase-icono css3" aria-hidden="true"></i>
                         <p class="text">
                             CSS 3
                         </p>    
                     </article>
                 </div>
             
-                <div class="box-div-sass cajita"><!--BOX SASS-->
-                    <article class="box-article-icon">
+                <div class="box-div-sass cajita" ><!--BOX SASS-->
+                    <article class="box-article-icon" aria-label="Sass">
                         <i class="fab fa-sass clase-icono sass"></i>
                         <P class="text">
                             Sass
@@ -166,7 +168,7 @@
                     </article>
                 </div>
                 <div class="box-div-javascript cajita"><!--BOX JAVASCRIPT-->
-                    <article class="box-article-icon">
+                    <article class="box-article-icon" aria-label="Javascript">
                         <i class="fab fa-js-square clase-icono javascript"></i>
                         <P class="text">
                             JavaScript
@@ -174,7 +176,7 @@
                     </article>
                 </div>
                 <div class="box-div-react cajita"><!--BOX REACT-->
-                    <article class="box-article-icon">
+                    <article class="box-article-icon" aria-label="React">
                         <i class="fab fa-react clase-icono react"></i>
                         <P class="text">
                             React
@@ -182,7 +184,7 @@
                     </article>
                 </div>
                 <div class="box-div-git cajita"><!--BOX GIT-->
-                    <article class="box-article-icon">
+                    <article class="box-article-icon" aria-label="Guit">
                         <i class="fab fa-git-alt clase-icono git"></i>
                         <P class="text">
                             GIT
@@ -194,12 +196,12 @@
 
                                     <!--CITA-->
 
-    <section class="box-cita">
+    <section class="box-cita" aria-label="En esta sección encontrará una cita de un cantante muy reconocido en su país. La misma se realizo en la época de la última dictadura en Argentina">
         <div class="box-container-cita">
                 <div class="box-cita-parrafo">
                     <i class="fas fa-guitar icon"></i>
                     <blockquote class="parrafo-class">
-                        Máma, la libertad siempre la llevarás, dentro del corazón.
+                        Máma la libertad siempre la llevarás, dentro del corazón.
                         Te pueden corromper, te puedes olvidar, pero ella siempre está.
                     </blockquote>
                     <footer class="title">
@@ -213,11 +215,11 @@
 
                         <!--SECCIÓN DE PROYECTOS-->
 
-    <section class="section-proyectos" id="section-proyectos">
+    <section class="section-proyectos" id="section-proyectos" aria-label="En esta sección verá los desafíos que tuve en esta etapa de mi formación ITE.Los mismos comprenden los siguientes trabajos, Portfolio, generador de memes, match 3, controlador de gastos, administrador de reuniones, todo app y buscador de películas. Esta instancia creativa esta en desarrollo actualmente, pero puedo decir que mi primer proyecto convoco toda mi disciplina e inteligencia emocional para poder lidiar con los muros que se interpusieron con mi meta. Y concluyo que, demostrarse triunfantes de estas batallas es lo que nos hace personas exitosas.">
         <div class="box-div-proyectos">
-            <h2 class="title-section-proyect"> <strong>Mis proyectos</strong>
+            <h2 class="title-section-proyect" aria-hidden="true"> <strong>Mis proyectos</strong>
             </h2>
-            <p class="parrafo-text-proyect">
+            <p class="parrafo-text-proyect" aria-hidden="true">
                 Muchos de mis desafios en esta etapa IT de mi formación, comprenden los siguientes trabajos. 
                 Esta instancia creativa esta en desarrollo actualmente, pero puedo decir que mi primer proyecto convoco toda mi disciplina e inteligencia emocional para poder lidiar con los muros que se interpusieron con mi meta. 
                 Y concluyo que, demostrarse triunfantes de estas batallas es lo que nos hace personas exitosas.
@@ -228,7 +230,7 @@
 
         <div class="box-div2-proyectos"> <!--CAJA CONTENEDORA-->
             <a href="" class="box-proyect"><!--Portfolio-->
-                <figure class="fig-proyect">
+                <figure class="fig-proyect" aria-label="Mi portfolio">
                     <img src="./imagenes/portfolio-gri.png" alt="Portfolio" class="img-portfolio">
                     <figcaption class="text-grilla">
                         Portfolio
@@ -237,7 +239,7 @@
             </a>
             <a href="" class="box-proyect"><!--Generador de memes-->
                 <figure class="fig-proyect">
-                    <img src="./imagenes/memes.svg" alt="Generador de memes" class="img-memes">
+                    <img src="./imagenes/memes.svg" alt="Generador de memes" class="img-memes" aria-label="Generador de memes">
                     <figcaption class="text-grilla">
                     Generador de memes
                     </figcaption>
@@ -245,7 +247,7 @@
             </a>
             <a href="" class="box-proyect"><!--March 3-->
                 <figure class="fig-proyect">
-                    <img src="./imagenes/match.svg" alt="Match 3" class="img-match">
+                    <img src="./imagenes/match.svg" alt="Match 3" class="img-match" aria-label="Match 3">
                     <figcaption class="text-grilla">
                     Match 3
                     </figcaption>
@@ -253,7 +255,7 @@
             </a>
             <a href="" class="box-proyect"><!--Controlador de gastos-->
                 <figure class="fig-proyect">
-                    <img src="./imagenes/gastos.svg" alt="Controlador de gastos" class="img-gastos">
+                    <img src="./imagenes/gastos.svg" alt="Controlador de gastos" class="img-gastos" aria-label="Controlador de gastos">
                     <figcaption class="text-grilla">
                     Controlador de gastos
                     </figcaption>
@@ -261,7 +263,7 @@
             </a>
             <a href="" class="box-proyect"> <!--Administrador de reuniones-->
                 <figure class="fig-proyect">
-                    <img src="./imagenes/reuniones.svg" alt="Administrador de reuniones" class="img-adm">
+                    <img src="./imagenes/reuniones.svg" alt="Administrador de reuniones" class="img-adm" aria-label="Administrador de reuniones">
                     <figcaption class="text-grilla">
                     Administrador de reuniones
                     </figcaption>
@@ -269,7 +271,7 @@
             </a>
             <a href="" class="box-proyect"><!--Todo app-->
                 <figure class="fig-proyect">
-                    <img src="./imagenes/app.svg" alt="todo app" class="img-app">
+                    <img src="./imagenes/app.svg" alt="todo app" class="img-app" aria-label="Todo app">
                     <figcaption class="text-grilla">
                     Todo app
                     </figcaption>
@@ -277,7 +279,7 @@
             </a>
             <a href="" class="box-proyect"><!--Buscador de películas-->
                 <figure class="fig-proyect">
-                    <img src="./imagenes/pelicula.svg" alt="Buscador de películas" class="img-peliculas">
+                    <img src="./imagenes/pelicula.svg" alt="Buscador de películas" class="img-peliculas" aria-label="Buscador de películas">
                     <figcaption class="text-grilla">
                     Buscador de películas
                     </figcaption>
@@ -289,44 +291,46 @@
     
                             <!--FORMULARIO-->
 
-    <section class="container-formulario" id="section-contactame"><!--CAJA CONTENEDORA DE LA IZQUIERDA-->
+    <section class="container-formulario" id="section-contactame" aria-label="En esta sección econtrará un formulario para ser llenado y contactado por mí."><!--CAJA CONTENEDORA DE LA IZQUIERDA-->
             <a href=""></a>
         <div class="box-formulario">
             <section class="box-contact">
                     <h2 class="title-contact">
                         Contactame
                     </h2>
-                    <p class="parrafo-contact">
+                    <p class="parrafo-contact" aria-label="Si tenés un desafío en mente, ¡Comentáme!.
+                    Juntos podemos hacer un gran equipo. La instancia de creación tiene dos principios.
+                    Pienso, luego existo.">
                        Si tenés un desafio en mente, ¡Comentame!
-                       Justos podemos hacer un gran equipo. La instancia de creación tiene dos principios, <br>
+                       Juntos podemos hacer un gran equipo. La instancia de creación tiene dos principios, <br>
                        "Pienso luego existo"
                     </p>
                     <!--SECCIÓN DE REDES SOCIALES-->
-                <section class="box-redes-sociales">
+                <section class="box-redes-sociales" aria-label="Cuento con varias cuentas de redes sociales donde podrá conocer un poco más de mí.">
                     <ul class="box-items-redes">
-                        <li class="box-li-redes">
-                            <a href="" class="text-redes" aria-label="Enlace de twitter">
+                        <li class="box-li-redes" aria-label="Mi twitter es @espíndola.gri">
+                            <a href="https://twitter.com/EspindolaGri?s=08" class="text-redes" aria-label="Enlace de twitter">
                                 <i class="fab fa-twitter icon-redes" aria-hidden="true">
                                     @Espindolagri
                                 </i>
                         </a>
                         </li>
-                        <li class="box-li-redes">
+                        <li class="box-li-redes" aria-label="Mi guit  hub es gri.espíndola">
                             <a href="https://github.com/gri-espindola/proyecto-ada" class="text-redes" aria-label="Elnace de Git hub">
                                 <i class="fab fa-github-alt icon-redes" aria-hidden="true"> 
                                     gri-espindola
                                 </i>
                             </a>
                         </li>
-                        <li class="box-li-redes">
-                            <a href="" class="text-redes" aria-label="ingrese al enlace de Linkedin">
+                        <li class="box-li-redes" aria-label="Mi linkedin es Gri.espíndola">
+                            <a href="https://www.linkedin.com/in/griselda-esp%C3%ADndola-14bb86170/" class="text-redes" aria-label="ingrese al enlace de Linkedin">
                                <i class="fab fa-linkedin-in icon-redes" aria-hidden="true">
                                     griespindola
                                 </i>
                             </a>
                         </li>
                         <li class="box-li-redes">
-                            <a href="mailto:griespindola27@gmail.com" class="text-redes" aria-label="ingrese a mi mail">
+                            <a href="mailto:griespindola27@gmail.com" class="text-redes" aria-label="Mi mail es gri.espíndola27@gmailpuntocom">
                                 <i class="far fa-envelope icon-redes" aria-hidden="true">
                                     griespindola27@gmail.com
                                 </i>
@@ -338,34 +342,39 @@
 
 
                 <!--INPUT NAME Y LASTNAME-->
-            <section class="box-form">
-                <h2 class="title-escribime">
+            <section class="box-form" aria-label="En esta sección encontrará un formulario para ser completado">
+                <h2 class="title-escribime" aria-hidden="true">
                     Escribime
                 </h2>
                     <form class="form-escribime">
                         <div class="box-name-lastname"> <!--DIV CONTENEDOR DE LOS INPUT NAME-LASTNAME-->
                             <div class="box-name">          
-                                <label for="firstname" class="text-name-lastname">Nombre *</label>
+                                <label for="firstname" class="text-name-lastname" aria-label="escriba su nombre aquí.">Nombre *
+                                </label>
                                 <input type="text" name="nombre" id="firtsname" class="input-firtsname" placeholder="Por ej. Griselda">
                             </div>
                             <div class="box-lastname">
-                                <label for="lastname" class="text-name-lastname"> Apellido *</label>
+                                <label for="lastname" class="text-name-lastname" aria-label="escriba su apellido aquí."> Apellido *
+                                </label>
                                 <input type="text" name="apellido" id="lastname" class="input-lastname" placeholder="Por ej. Espíndola">
                             </div>
                         </div>
                         <!--INPUT MAIL-->
                         <div class="box-mail">
-                            <label for="email" class="text-mail">Mail *</label>
-                            <input type="text" name="email" id="email" class="input-email" placeholder="Por ej. griespindola27@gmail.com">
+                            <label for="email" class="text-mail">
+                                Mail *
+                            </label>
+                            <input type="text" name="email" id="email" class="input-email" placeholder="Por ej. griespindola27@gmail.com" aria-label="escriba su email aquí.">
                         </div>
                         <!--INPUT MESSAGE-->
                         <div class="box-message">
-                            <label for="message" class="text-message">Mensaje *</label>                            <textarea name="mensaje" id="message" cols="30" rows="10"placeholder="Escriba aquí su mensaje"class="textarea-message">Escriba su mensaje aquí
+                            <label for="message" class="text-message" aria-label="deje su mensaje aquí.">Mensaje *</label>
+                            <textarea name="mensaje" id="message" cols="30" rows="10"placeholder="Escriba aquí su mensaje"class="textarea-message">Escriba su mensaje aquí
                             </textarea>
                         </div>   
                     </form>
                          
-                    <button class="button-end">
+                    <button class="button-end" aria-label="seleccione enviar para que llegue su consulta a mí.">
                         <a href="" class="text-button-end">
                         Enviar
                         </a>
@@ -380,8 +389,8 @@
         <nav class="nav-the-end">
             <ul class="ul-the-end ul-nav-end">
                 <li class="li-the-end">
-                    <a href="#section-hello" class="a-the-end" aria-label="vuelve al inicio">
-                        HOLA <!--donde tiene texto no, igual probar la gallega-->
+                    <a href="#section-hello" class="a-the-end">
+                        HOLA
                     </a>
                 </li>
                 <li class="li-the-end">
@@ -405,17 +414,17 @@
                 <!--NAVEGACIÓN CON ICONOS-->
         <ul class="ul-the-end">
             <li class="li-the-end">
-                <a href="#va enlace de twitter">
+                <a href="https://twitter.com/EspindolaGri?s=08">
                     <i class="fab fa-twitter i-the-end"></i>
                 </a>
             </li>
             <li class="li-the-end">
-                <a href="">
+                <a href="https://github.com/gri-espindola/proyecto-ada">
                     <i class="fab fa-github i-the-end"></i>
                 </a>
             </li>
             <li class="li-the-end">
-                <a href="">
+                <a href="https://www.linkedin.com/in/griselda-esp%C3%ADndola-14bb86170/">
                     <i class="fab fa-linkedin-in i-the-end"></i>
                 </a>
             </li>
@@ -426,7 +435,7 @@
             </li>
         </ul>
                     <!--THE END-->
-        <p class="p-footer-gri">Hecho con <span class="emoji-end">❤</span> Por Gri</p>
+        <p class="p-footer-gri" aria-label="Hecho con amor por Grissss">Hecho con <span class="emoji-end">❤</span> Por Gri</p>
     </footer>
 </body>
 
